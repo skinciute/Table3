@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+table {
+    border-collapse: collapse;
+    border: 2px solid black;
+    margin: auto;
+    text-align: left;
+    font-family: josefin sans;
+}
+td {
+    border: 2px solid black;
+    width: 150px;
+    height: 25px;
+}
+th {
+    background: white;
+    color: black;
+    border: 2px solid black;
+    width: 250px;
+    height: 25px;
+}
+tr:nth-child(4) {
+    background: hsl(39deg 100% 50%);
+    color: white;
+}
+tr:nth-child(5) {
+    background: hsl(240deg 100% 65%);
+    color: white;
+}
+tr:nth-child(6) {
+    background: hsl(133deg 79% 42%);
+    color: white;
+}
